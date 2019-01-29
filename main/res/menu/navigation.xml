@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_measure"
+        android:icon="@drawable/ic_tune_black_24dp"
+        android:title="@string/measure" />
+
+    <item
+        android:id="@+id/navigation_alarm"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/alarm" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="@string/calendar" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_off"
+        android:title="@string/profile" />
+
+</menu>

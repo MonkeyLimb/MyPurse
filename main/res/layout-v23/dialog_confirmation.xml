@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="343dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteBG"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/confirmation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save measurement?"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#3e2723"
+            android:textSize="20sp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#4caf50"
+            android:drawableLeft="@drawable/ic_save_black_24dp"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_save_black_24dp"
+            android:padding="20dp"
+            android:text="SAVE"
+            android:textAlignment="textStart"
+            android:textColor="#ffff"
+            android:drawableTint="#ffff"/>
+        <Button
+            android:id="@+id/cancel_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#d50000"
+            android:drawableLeft="@drawable/ic_cancel_black_24dp"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_cancel_black_24dp"
+            android:padding="20dp"
+            android:text="CANCEL"
+            android:textAlignment="textStart"
+            android:textColor="#ffff"
+            android:drawableTint="#ffff"/>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_IV"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

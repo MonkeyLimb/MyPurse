@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhiteBG"
+
+        android:layout_height="86dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:padding="4dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cal_bp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="#000000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                tools:text="BP" />
+
+            <TextView
+                android:id="@+id/cal_pp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="#000000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                tools:text="PP" />
+
+            <TextView
+                android:id="@+id/cal_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="#000000"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                tools:text="Date and Time" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

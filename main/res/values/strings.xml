@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">My Purse</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="measure">Measure</string>
+    <string name="logs">Logs</string>
+    <string name="profile">Profile</string>
+    <string name="app_name2">My Purse</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="full_name">full name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="register">Register</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_confirm">confirm password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_confirm">confirm password should be the same as password</string>
+    <string name="input_error_password_length">password should be atleast 8 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="registration_failed">Failed to create user</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="login_error">Invalid Username or Password. You figure out which. </string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="please_wait">Please wait…</string>
+    <string name="balance_text">₱ 0.00</string>
+    <string name="current_balance">Current Balance:</string>
+    <string name="user">User:</string>
+    <string name="user_text">user_text</string>
+    <string name="user_ID">userID</string>
+    <string name="user_id_label">User ID:</string>
+    <string name="password_reg">Password</string>
+    <string name="passwordconfirm_reg">Confirm Password</string>
+    <string name="loading_info">Loading info..</string>
+    <string name="log_out">Logout</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="pay_amount">Pay Amount</string>
+    <string name="pick_item">Pick Item</string>
+    <string name="add_credits_to_a_user">Add Credits to a User</string>
+    <string name="user_details">User Details</string>
+    <string name="emailLabel">Email:</string>
+    <string name="peso_sign">₱</string>
+    <string name="input_amount_error">Please input amount</string>
+    <string name="add_balance">Add Balance</string>
+    <string name="student_name">Student Name:</string>
+    <string name="show_number">Show Number</string>
+    <string name="items_inventory">Items Inventory</string>
+    <string name="list_devices">List Devices</string>
+    <string name="item_listview">List of Items</string>
+    <string name="transaction_logs">Transaction Logs</string>
+    <string name="firstaid1">HYPERTENSION</string>
+    <string name="pulse_pressure">Pulse pressure</string>
+    <string name="blank_load">--</string>
+    <string name="systolic">Systolic</string>
+    <string name="firstaid_hyper">
+        "First aid.
+
+                1. Make sure that the blood pressure reading is correct especially if the patient has no symptoms such as headache or chest pains.
+
+                2. Keep the patient relaxed. To calm the patient, you can instruct him to breathe slowly and deeply. Sometimes, slow breathing can already lower the blood pressure.
+
+                3. If the patient has maintenance medicines for high blood pressure, let him take it.
+
+                4. You can usually give the patient medicines for high blood pressure in the following circumstances:
+
+                      (1) If the blood pressure is over 140/90 \n\t  (2) If the blood pressure is 160/100 or higher.
+
+                5. The usual first aid medicines doctors give to lower the blood pressure include \n\t  (1) Clonidine 75 mcg, one tablet orally or \n\t  (2) Captopril 25 mg, one tablet orally. These medicines can also be place and dissolved under the tongue for faster action. But for most cases, taking it orally is good enough. Consult your doctor first.
+
+                6. Take note that not all cases of high blood pressure should be given medications. Sometimes there are external causes of high blood pressure such as anger, tension or pain. Just make the patient more relaxed and the BP will go down.
+                Finally, see your doctor for a check-up.
+                "
+    </string>
+    <string name="hypoinfo">
+        1st aid steps hypotension\n\n
+
+        Step 1 - If a person is experiencing dizziness, faint or lightheaded, assist the person to a sitting or lying position.\n\n
+
+        Step 2 - If the person is lying down, elevate the head a few inches.\n\n
+
+        Step 3 - Give the person a solution of water\n\n
+        and salt.
+
+        Step 4 - If the person is going to stand up, do slowly and assist.\n
+    </string>
+    <string name="heart_attackinfo">
+        1st aid steps for heart attack.\n\n
+
+        Step 1 - Shake and shout\n
+
+        Step 2 - Check breathing\n
+
+        Step 3 - Call 911\n
+
+        Step 4 - Give 30 chest compressions\n
+
+        Step 5 - Two rescue breaths\n
+
+        Step 6 - Repeat\n
+    </string>
+    <string name="pulse_pressure_info">
+        Pulse pressure is the difference between the systolic and diastolic blood pressures.\n\n
+
+        Also, recent work suggests that a high pulse pressure is an important risk factor for heart disease. A meta-analysis in 2000, which combined the results of several studies of 8,000 elderly patients in all, found that a 10 mm Hg increase in pulse pressure increased the risk of major cardiovascular complications and mortality by nearly 20%.[9] Heightened pulse pressure is also a risk factor for the development of atrial fibrillation.[10] The authors of the meta-analysis suggest that this helps to explain the apparent increase in risk sometimes associated with low diastolic pressure, and warn that some medications for high blood pressure may actually increase the pulse pressure and the risk of heart disease.
+    </string>
+    <string name="firstaid2">HYPOTENSION</string>
+    <string name="firstaid3">HEART ATTACK</string>
+    <string name="info1">PULSE PRESSURE</string>
+    <string name="calendar">Calendar</string>
+    <string name="calendar_save">Save to Calendar</string>
+    <string name="ev_saved">Measurement Saved</string>
+    <string name="event_add_fail">Cannot add Event</string>
+    <string name="recent_stats_for_s">Recent stats for %s</string>
+    <string name="write_note">Enter note for this date...</string>
+    <string name="save">Save</string>
+    <string name="no_note">No notes</string>
+    <string name="add_notes">Add notes</string>
+    <string name="Abort">Cancel</string>
+    <string name="alarm">Alarm</string>
+
+    <!--Added from alarm-->
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="alarm_repeat">Repeat alarm? (Everyday)</string>
+    <string name="rep_on">Repeat is on</string>
+    <string name="rep_off">Repeat is off</string>
+    <string name="calendar_none_reminder">Nothing on this date. Use measure page to add measurements in this page</string>
+
+    <string-array name="sex">
+        <item>Sex</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
